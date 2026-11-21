@@ -2,7 +2,7 @@ import { chmodSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE: string =
-  'My agent opened a PR, reviewed it, approved it, and merged in 60 seconds—and took 59 seconds deciding how to reply to "hi."';
+  'I added "requires a human" to AGENTS.md, so my agent\'s diff satisfied the rule by creating human.md.';
 
 function main(): void {
   const outputDir: string = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
