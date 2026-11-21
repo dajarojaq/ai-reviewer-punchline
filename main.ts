@@ -2,7 +2,7 @@ import { chmodSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE: string =
-  'I told my AI coding agent to write more human comments, so above auth it wrote: // please don\'t fire me.';
+  'My agent rewrote the entire codebase in 60 seconds—and took 59 seconds deciding how to reply to "hi."';
 
 function main(): void {
   const outputDir: string = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
