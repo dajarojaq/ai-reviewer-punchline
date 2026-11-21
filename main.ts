@@ -2,7 +2,7 @@ import { chmodSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE: string =
-  'I told my AI coding agent /login didn\'t match the spec, so its diff added HTTP 500 under "expected responses."';
+  'I told my AI coding agent to write more human comments, so above auth it wrote: // please don\'t fire me.';
 
 function main(): void {
   const outputDir: string = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
